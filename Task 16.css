@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:silver;
+  }
+  
+  #app {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:darkgoldenrod;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .music-player {
+    text-align: center;
+  }
+  
+  .now-playing {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .now-playing img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .controls button {
+    margin: 0 10px;
+  }
+  
+  .additional-controls {
+    margin-top: 10px;
+  }
+  
+  .playlist {
+    margin-bottom: 20px;
+  }
+  
+  .playlist h2 {
+    margin-bottom: 10px;
+  }
+  
+  #playlistItems {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #playlistItems li {
+    margin-bottom: 5px;
+  }
+  
+  .search {
+    margin-bottom: 20px;
+  }
+  
+  .search input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .social-sharing {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

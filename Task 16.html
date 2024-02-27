@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Streaming App</title>
+  <link rel="stylesheet" href="Task 16.css">
+</head>
+<body>
+  <div id="app">
+    <div class="header">
+      <h1>Music Streaming App</h1>
+      <button id="loginBtn">Login</button>
+    </div>
+    <div class="music-player">
+      <div class="now-playing">
+        <img id="albumCover" src="264x264.jpg" alt="Album Cover">
+        <div class="song-info">
+          <h2 id="songTitle">Song Title</h2>
+          <p id="artist">Artist</p>
+        </div>
+      </div>
+      <audio id="audioPlayer" controls></audio>
+      <div class="controls">
+        <button id="prevBtn">Previous</button>
+        <button id="playPauseBtn">Play</button>
+        <button id="nextBtn">Next</button>
+      </div>
+      <div class="additional-controls">
+        <button id="shuffleBtn">Shuffle</button>
+        <button id="repeatBtn">Repeat</button>
+        <input type="range" id="volumeControl" value="50" max="100">
+      </div>
+    </div>
+    <div class="playlist">
+      <h2>Playlist</h2>
+      <ul id="playlistItems">
+        <!-- Playlist items will be dynamically added here -->
+      </ul>
+    </div>
+    <div class="search">
+      <input type="text" id="searchInput" placeholder="Search for songs...">
+      <button id="searchBtn">Search</button>
+    </div>
+    <div class="social-sharing">
+      <button id="shareBtn">Share</button>
+    </div>
+  </div>
+
+  <script src="Task 16.js"></script>
+</body>
+</html>
